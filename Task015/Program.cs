@@ -11,11 +11,11 @@ Console.Clear();
 Console.WriteLine("Проверка дня недели (выходной или будень) по номеру дня недели");
 Console.Write("Введите номер дня недели: ");
 int n = int.Parse(Console.ReadLine());
-if (n > 5 && n < 8)
+if (n > 5 && n < 8 )
 {
     Console.WriteLine("Выходной");
 }
-else if (n < 6)
+else if (n < 6 && n != 0 )
 {
     Console.WriteLine("Будень");
 }
